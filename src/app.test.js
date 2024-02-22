@@ -1,7 +1,7 @@
+import { add } from "./app";
 
 describe("my test suite", () => {
   it("first test", () => {
-    expect(1 + 1).toEqual(2);
+    expect(add(1, 1)).toEqual(2);
   });
 });
-
