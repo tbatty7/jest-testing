@@ -26,3 +26,11 @@ export function fizzbuzz(a) {
   }
   return a;
 }
+
+export function fizzbuzzTo(lastNumber) {
+  const list = [];
+  for (let i = 1; i <= lastNumber; i++) {
+    list.push(i);
+  }
+  return list;
+}
