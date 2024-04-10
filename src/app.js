@@ -30,7 +30,8 @@ export function fizzbuzz(a) {
 export function fizzbuzzTo(lastNumber) {
   const list = [];
   for (let i = 1; i <= lastNumber; i++) {
-    list.push(i);
+    const result = fizzbuzz(i)
+    list.push(result);
   }
   return list;
 }
