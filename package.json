@@ -17,5 +17,8 @@
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
   }
 }
